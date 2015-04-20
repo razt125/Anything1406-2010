@@ -35,6 +35,7 @@ div {
   <h2>Success Evaluation</h2>
 <p>monitor increase in: donations, volunteers, members, concert attendees </p>
 <h2>Target Audience</h2>
+<p>The target auidence is included to a wide range of ages, however, Townsville Community Music Centre is more appealing to a more mature age of music enthusiasts ranging from around 40 years old. The site will appeal to this the targeted auidence as the colour scheme will be focused towards subtle colours rather than bright colours. Also the website will be simple to navigate making it more simple for mature ages to go from page to page.</p>
 <p>Mature music enthusiasts </p>
 <h2>Content</h2>
 <p> ...   <br>
