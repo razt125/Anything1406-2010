@@ -36,8 +36,13 @@ div {
 <p>monitor increase in: donations, volunteers, members, concert attendees </p>
 <h2>Target Audience</h2>
 <p>Mature music enthusiasts </p>
+<h2>Content</h2>
+<p> ...   <br>
 <h2>Site Flowchart (Structure Diagram)</h2>
 <p> ...   <br>
+<h2>GitHub repository</h2>
+<p>Anything1406/Anoything1406-2010<br>
+https://github.com/Anything1406/Anything1406-2010 <br>
 </p>
 </div>
 </body>
