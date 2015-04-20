@@ -36,8 +36,9 @@ div {
 <p>The website for Townsville Community Music Centre aims to increase donations, volunteers, members and concert attendees. In order to measure relative success in this venture, these will be recorded before implementation of the new site and again a time - 3 months -after the site's launch. results may also be recorded during these months to determine the rate at which the site comes into effect.</p>
 <h2>Target Audience</h2>
 <p>The target auidence is included to a wide range of ages, however, Townsville Community Music Centre is more appealing to people of a mature age (around 40) who are interested in musical concerts and people looking to advertise their musical talents. The site will appeal to this the targeted auidence as the colour scheme will be focused towards subtle colours rather than bright colours. Also the website will be simple to navigate making it more simple for mature ages to go from page to page.</p>
+<p>&nbsp;</p>
 <h2>Content</h2>
-<p> ...   <br>
+<p><br>
 <h2>Site Flowchart (Structure Diagram)</h2>
 <p> ...   <br>
 <h2>GitHub repository</h2>
