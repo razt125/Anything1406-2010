@@ -4,7 +4,9 @@
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 
 <h1>Townsville Community Music Centre</h1>
@@ -15,17 +17,27 @@ Events
 Bulletin Board
 Musicians
 About Us
-</nav>
+</nav><br><br>
 
 <div id= section1>
-Help us out by becoming a member, donating or volunteering
+  <p>Help us out by becoming a </p>
+  <p>member, donating or </p>
+  <p>volunteering </p>
 </div>
-
 <div id= section2>
-Sign Up<br>
-Donate<br>
-Volunteer
+  <p>Sign Up</p>
+  <p>Donate</p>
+  <p>Volunteer</p>
 </div>
-
+<div id= section3>
+  <p>Announcements</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<footer> Contact Info</footer>
 </body>
 </html>
