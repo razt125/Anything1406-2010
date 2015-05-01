@@ -11,18 +11,23 @@
 
 <h1>Townsville Community Music Centre</h1>
 
-<nav>
-Home
-Events 
-Bulletin Board
-Musicians
-About Us
-</nav><br><br>
+<nav><p>
+	Home
+    Events 
+    BulletinBoard
+    Musicians
+    AboutUs 
+  	Login:
+    Username <input type = "text" username = "Username">
+    Password <input type = "text" password = "Password">
+    
+</nav>
+<br><br>
 
-<div id= section1>
-  <p>Help us out by becoming a </p>
-  <p>member, donating or </p>
-  <p>volunteering </p>
+  <div id= section1>
+  <p>Help us out by becoming a member, donating or volunteering </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
 </div>
 <div id= section2>
   <p>Sign Up</p>
@@ -30,14 +35,23 @@ About Us
   <p>Volunteer</p>
 </div>
 <div id= section3>
-  <p>Announcements</p>
+  <h2>Announcements</h2>
+  <p>Announcement 1: (text)</p>
+  <p>Announcement 2: (text)</p>
+  <p>Announcement 3: (text)</p>
+  <p>Announcement 4: (text)</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
 </div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<footer> Contact Info</footer>
+
+<footer> 
+  <p>Contact Info</p>
+  <p>&nbsp;</p>
+</footer>
 </body>
 </html>
