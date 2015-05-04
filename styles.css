@@ -1,32 +1,68 @@
 @charset "utf-8";
-#section1 {
-	font-size: 200%;
-	float: left;
-	width: 33%;
-
-}
-#section2 {
-	text-align: left;
-	float: left;
-	width: 34%;
-}
 body h1 {
 	text-align: center;
 }
-body nav {
-	border-width: medium;
-	border-style: solid;
+
+.imageSpace {
+	width: 23%;
+	float: left;
+	margin-left: 15%;
 	text-align: center;
+}
+.bioText {
+	float: right;
+	width: 45%;
+	margin-left: 10px;
+	text-align: center;
+	margin-right: 15%;
+}
+.brief {
+	width: 23%;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: 15%;
+}
+body footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 15%;
+	float: left;
+	width: 70%;
+}
+#section1 {
+	float: left;
+	width: 21%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	margin-left: 15%;
+	margin-right: 2%;
+	text-align: left;
+}
+#section2 {
+	float: left;
+	width: 22%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 50px;
 }
 #section3 {
 	float: left;
-	width: 33%;
-
-
+	width: 23%;
+	text-align: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 2%;
 }
-body {
-	margin-top: 50px;
-	margin-right: 50px;
-	margin-bottom: 50px;
-	margin-left: 50px;
+body nav p {
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+}
+#section3 h2 {
+	text-align: center;
 }
