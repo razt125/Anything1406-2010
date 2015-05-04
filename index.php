@@ -5,21 +5,22 @@
 <meta charset="utf-8">
 <title>index.html</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 <h1>Townsville Community Music Centre</h1>
 
-<nav><p>
-	Home
-    Events 
-    BulletinBoard
-    Musicians
-    AboutUs 
-  	Login:
-    Username <input type = "text" username = "Username">
-    Password <input type = "text" password = "Password">
+<nav class="navbar">
+  <p>Home</p>
+  <p>Events </p>
+  <p>Bulletin Board</p>
+  <p>Musicians</p>
+  <p> About Us</p>
+  <p class="login">Login:</p>
+   <p id="username">Username <input type = "text" username = "Username"> </p>
+   <p id="password">Password<input type = "text" password = "Password"></p>
     
 </nav>
 <br><br>
