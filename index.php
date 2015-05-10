@@ -6,6 +6,23 @@
 <title>index.html</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="styles.css" rel="stylesheet" type="text/css">
+
+<script language="Javascript" type="text/javascript">
+adImages = Array("images/banner.jpg","images/banner1.jpg","images/banner2.jpg")
+thisAd = 0
+imgCt = adImages.length
+function rotate() {
+if (document.images) {
+thisAd++
+if (thisAd == imgCt) {
+thisAd = 0
+}
+document.adBanner.src=adImages[thisAd]
+setTimeout("rotate()", 3 * 1000)
+}
+}
+</script>
+
 </head>
 
 <body>
@@ -50,22 +67,10 @@
   <p>&nbsp;</p>
 </div>
 
-<script language="JavaScript1.2">
-
-var howOften = 5; //number often in seconds to rotate
-var current = 0; //start the counter at 0
-var ns6 = document.getElementById&&!document.all; //detect netscape 6
-
-// place your images, text, etc in the array elements here
-var items = new Array();
-    items[0]="<a href='link.htm' ><img alt='image0 (9K)' src=' /Images/image0.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-    items[1]="<a href='link.htm'><img alt='image1 (9K)' src='/Images/image1.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-    items[2]="<a href='link.htm'><img alt='image2 (9K)' src='/Images/image2.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-   items[3]="<a href='link.htm'><img alt='image3 (9K)' src='/Images/image3.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-    items[4]="<a href='link.htm'><img alt='image4 (9K)' src='/Images/image4.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-    items[5]="<a href='link.htm'><img alt='image5 (18K)' src='/Images/image5.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-
-<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+<body onload="rotate()">
+<center>
+<img src="images/banner.jpg"/>
+</center>
 
 <footer> 
   <p>Contact Info</p>
