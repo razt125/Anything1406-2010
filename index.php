@@ -1,11 +1,10 @@
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
-<script language="Javascript" type="text/javascript">
-adImages = Array("images/banner.jpg","images/banner1.jpg","images/banner2.jpg")
+<script type="text/javascript">
+adImages = Array("TCMC Images Docs/events/ACVCnewlogo.gif","TCMC Images Docs/events/Allegro600.png","TCMC Images Docs/events/Allegro600BB.png")
 thisAd = 0
 imgCt = adImages.length
 function rotate() {
@@ -15,7 +14,7 @@ if (thisAd == imgCt) {
 thisAd = 0
 }
 document.adBanner.src=adImages[thisAd]
-setTimeout("rotate()", 3 * 1000)
+setTimeout("rotate()", 1 * 1000)
 }
 }
 </script>
@@ -23,7 +22,7 @@ setTimeout("rotate()", 3 * 1000)
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body onload="rotate()">
 
 <h1>Townsville Community Music Centre</h1>
 
@@ -33,10 +32,6 @@ setTimeout("rotate()", 3 * 1000)
   <p>Bulletin Board</p>
   <p>Musicians</p>
   <p> About Us</p>
-  <p class="login">Login:</p>
-   <p id="username">Username <input type = "text" username = "Username"> </p>
-   <p id="password">Password<input type = "text" password = "Password"></p>
-    
 </nav>
 <br><br>
 <div id="sectionsbox">
@@ -45,13 +40,15 @@ setTimeout("rotate()", 3 * 1000)
   <p>Help us out by becoming a member, donating or volunteering </p>
  </div>
     <div id= section1>
-  <body onload="rotate()">
+    
+
 <center>
-<img src="images/banner.jpg"/>
+<img name="adBanner" src="TCMC Images Docs/events/ACVCnewlogo.gif"/>
 </center>
+
 </div>
-<div id= section2>
-  <p id="Buttons">Sign Up</p>
+  <div id= section2>
+<p id="Buttons">Sign Up</p>
   <p id="Buttons">Donate</p>
   <p id="Buttons">Volunteer</p>
 </div>
