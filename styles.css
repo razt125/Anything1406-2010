@@ -50,6 +50,7 @@ body footer {
 	color: #FFFFFF;
 	padding-left: 10px;
 	padding-right: 10px;
+	height: 208px;
 }
 #section2 {
 	float: left;
@@ -59,6 +60,7 @@ body footer {
 	font-size: 50px;
 	border-width: thin;
 	background-color: #292929;
+	height: 15em;
 }
 #section3 {
 	float: left;
