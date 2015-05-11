@@ -47,9 +47,9 @@ setTimeout("rotate()", 3 * 1000)
   <p>&nbsp;</p>
 </div>
 <div id= section2>
-  <p>Sign Up</p>
-  <p>Donate</p>
-  <p>Volunteer</p>
+  <p id="Buttons">Sign Up</p>
+  <p id="Buttons">Donate</p>
+  <p id="Buttons">Volunteer</p>
 </div>
 <div id= section3>
   <h2>Announcements</h2>
