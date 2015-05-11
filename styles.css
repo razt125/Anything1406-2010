@@ -34,7 +34,6 @@ body footer {
 	float: left;
 	width: 70%;
 	border-width: thin;
-	border-style: solid;
 	background-color: #FFFFFF;
 }
 #section1 {
@@ -47,9 +46,10 @@ body footer {
 	margin-right: 2%;
 	text-align: left;
 	border-width: thin;
-	border-style: solid;
 	background-color: #191919;
 	color: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 #section2 {
 	float: left;
@@ -57,7 +57,6 @@ body footer {
 	margin-top: 10px;
 	text-align: center;
 	font-size: 50px;
-	border-style: solid;
 	border-width: thin;
 	background-color: #F2F2F2;
 }
@@ -68,9 +67,12 @@ body footer {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	margin-left: 2%;
-	border: thin solid #000000;
+	border-color: #000000;
+	border-width: thin;
 	background-color: #292929;
 	color: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 body nav p {
 	text-align: center;
@@ -130,4 +132,21 @@ body nav p:hover {
 body nav p:active {
 	background-color:#FFFFFF;
 	color:#000000;
+}
+#Buttons {
+	background-color: #191919;
+	margin-left: 35px;
+	margin-right: 35px;
+	color: #FFFFFF;
+	border: thick double #1452C4;
+}
+#Buttons:hover {
+	background-color:#313843
+}
+#Buttons:active {
+	border: thick double #1452C4;
+	background-color: #12387E;
+	color: #FFFFFF;
+}
+	
 }
