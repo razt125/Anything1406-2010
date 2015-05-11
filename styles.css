@@ -124,3 +124,10 @@ body {
 	background-size: cover;
 	background-color: #313843;
 }
+body nav p:hover {
+	background-color:#313843;
+}
+body nav p:active {
+	background-color:#FFFFFF;
+	color:#000000;
+}
