@@ -4,8 +4,6 @@
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
-
 <script language="Javascript" type="text/javascript">
 adImages = Array("images/banner.jpg","images/banner1.jpg","images/banner2.jpg")
 thisAd = 0
@@ -22,6 +20,7 @@ setTimeout("rotate()", 3 * 1000)
 }
 </script>
 
+<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -40,11 +39,16 @@ setTimeout("rotate()", 3 * 1000)
     
 </nav>
 <br><br>
-
-  <div id= section1>
+<div id="sectionsbox">
+<br>
+<div id="section4">
   <p>Help us out by becoming a member, donating or volunteering </p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
+ </div>
+    <div id= section1>
+  <body onload="rotate()">
+<center>
+<img src="images/banner.jpg"/>
+</center>
 </div>
 <div id= section2>
   <p id="Buttons">Sign Up</p>
@@ -65,12 +69,7 @@ setTimeout("rotate()", 3 * 1000)
   <p>&nbsp;</p>
   <p>&nbsp;</p>
 </div>
-
-<body onload="rotate()">
-<center>
-<img src="images/banner.jpg"/>
-</center>
-
+</div>
 <footer> 
   <p>Contact Info</p>
   <p>&nbsp;</p>
