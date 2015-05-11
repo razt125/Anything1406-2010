@@ -5,7 +5,6 @@
 <meta charset="utf-8">
 <title>index.html</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
-<link href="styles.css" rel="stylesheet" type="text/css">
 
 <script language="Javascript" type="text/javascript">
 adImages = Array("images/banner.jpg","images/banner1.jpg","images/banner2.jpg")
