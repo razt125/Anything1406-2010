@@ -75,7 +75,7 @@ body footer {
 body nav p {
 	text-align: center;
 	display: inline-block;
-	border: thin solid #000000;
+	border: thin solid #FFF;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
@@ -93,8 +93,9 @@ body nav p {
 .login {
 	text-align: center;
 	border-style: none;
-	padding-left: 45px;
 	padding-right: 0px;
+	margin-left: 45px;
+	background-color: #12387E;
 }
 .navbar {
 	border: thin solid #252525;
@@ -106,18 +107,20 @@ body nav p {
 	padding-right: 0px;
 	border-style: none;
 	display: inline;
+	background-color: #12387E;
 	
 }
 #password {
-	padding-left: 0px;
+	padding-left: 20px;
 	padding-right: 0px;
 	border-style: none;
 	display: inline;
+	background-color: #12387E;
 	
 }
 body {
-	background-image: url(ShatterExplosion.png);
+	background-image: url(file:///ShatterExplosion.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #313843;
 }
-
