@@ -3,22 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
-<script type="text/javascript">
-adImages = Array("TCMC Images Docs/events/ACVCnewlogo.gif","TCMC Images Docs/events/Allegro600.png","TCMC Images Docs/events/Allegro600BB.png")
-thisAd = 0
-imgCt = adImages.length
-function rotate() {
-if (document.images) {
-thisAd++
-if (thisAd == imgCt) {
-thisAd = 0
-}
-document.adBanner.src=adImages[thisAd]
-setTimeout("rotate()", 1 * 1000)
-}
-}
-</script>
-
+<script scr="scripts.js"></script>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -34,24 +19,20 @@ setTimeout("rotate()", 1 * 1000)
   <p> About Us</p>
 </nav>
 <br><br>
+
 <div id="sectionsbox">
 <br>
-<div id="section4">
+
+<div id="section1">
   <p>Help us out by becoming a member, donating or volunteering </p>
- </div>
-    <div id= section1>
-    
-
-<center>
-<img name="adBanner" src="TCMC Images Docs/events/ACVCnewlogo.gif"/>
-</center>
-
 </div>
-  <div id= section2>
-<p id="Buttons">Sign Up</p>
-  <p id="Buttons">Donate</p>
-  <p id="Buttons">Volunteer</p>
+
+<div id= section2>
+<p id="Button1">Sign Up</p>
+<p id="Button2">Donate</p>
+<p id="Button3">Volunteer</p>
 </div>
+
 <div id= section3>
   <h2>Announcements</h2>
   <p>Announcement 1: (text)</p>
@@ -66,7 +47,14 @@ setTimeout("rotate()", 1 * 1000)
   <p>&nbsp;</p>
   <p>&nbsp;</p>
 </div>
+
+<div id= section4>
+<center>
+<img name="adBanner" src="TCMC Images Docs/events/ACVCnewlogo.gif"/>
+</center>
 </div>
+</div>
+
 <footer> 
   <p>Contact Info</p>
   <p>&nbsp;</p>
