@@ -1,5 +1,5 @@
-<script type="text/javascript">
-adImages = Array("TCMC Images Docs/events/ACVCnewlogo.gif","TCMC Images Docs/events/Allegro600.png","TCMC Images Docs/events/Allegro600BB.png")
+// JavaScript Document<script type="text/javascript">
+adImages = Array("image1.png","image2.png","image3.png")
 thisAd = 0
 imgCt = adImages.length
 function rotate() {
@@ -9,7 +9,6 @@ if (thisAd == imgCt) {
 thisAd = 0
 }
 document.adBanner.src=adImages[thisAd]
-setTimeout("rotate()", 1 * 1000)
+setTimeout("rotate()", 3 * 1000)
 }
 }
-</script>
