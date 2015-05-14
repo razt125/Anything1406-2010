@@ -15,7 +15,11 @@
 <p>Musicians</p>
 <p> About Us</p>
 </nav>
-
+<div id="pagecontent">
+<div id="mainevent">Link to main event </div>
+<div id="event1">Link to next event</div>
+<div id="event2">Link to next event</div>
+</div>
 <footer>
 <p>Contact Info</p>
 <p>&nbsp;</p>
