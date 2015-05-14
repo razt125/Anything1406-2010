@@ -20,7 +20,7 @@
 </nav>
 <br><br>
 
-<div id="sectionsbox">
+<div id="pagecontent">
 <br>
 
 <div id="section1">
