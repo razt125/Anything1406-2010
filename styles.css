@@ -38,51 +38,58 @@ text-align: center;
 margin-left: 15%;
 }
 body footer {
-margin-top: 20px;
-margin-bottom: 20px;
-margin-right: auto;
-margin-left: auto;
-width: 1000px;
-border: thin solid #FFFFFF;
-background-color: #000000;
-color: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-top-width: thin;
+	background-color: #000000;
+	color: #FFFFFF;
 }
 #section4 {
-width: 600px;
-margin-top: 25px;
-margin-bottom: 10px;
-font-size: 30px;
-text-align: left;
-border-width: thin;
-background-color: #292929;
-color: #FFFFFF;
-height: 450px;
-clear: left;
-float: left;
-margin-left: 25px;
+	width: 600px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	text-align: left;
+	border-width: thin;
+	background-color: #292929;
+	color: #FFFFFF;
+	height: 450px;
+	clear: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 #section2 {
-text-align: center;
-font-size: 50px;
-border-width: thin;
-/* [disabled]background-color: #292929; */
-height: 300px;
-width: 275px;
-float: left;
-margin-left: 25px;
-padding-top: 25px;
+	text-align: center;
+	font-size: 50px;
+	border-width: thin;
+	/* [disabled]background-color: #292929; */
+	height: 250px;
+	width: 275px;
+	float: left;
+	padding-top: 50px;
+	margin-bottom: 75px;
 }
 #section3 {
-float: right;
-width: 275px;
-margin-bottom: 10px;
-border-color: #000000;
-border-width: thin;
-background-color: #292929;
-color: #FFFFFF;
-height: 500px;
-margin-right: 25px;
-padding-left: 25px;
+	float: right;
+	width: 275px;
+	margin-bottom: 10px;
+	border-color: #000000;
+	border-width: thin;
+	background-color: #292929;
+	color: #FFFFFF;
+	height: 300px;
+	margin-right: 25px;
+	padding-left: 25px;
 }
 body nav p {
 text-align: center;
@@ -203,7 +210,7 @@ margin-left: auto;
 	width: 300px;
 	float: left;
 	margin-left: 25px;
-	height: 300px;
+	height: 275px;
 	padding-top: 25px;
 }body header {
 	margin-left: auto;
@@ -266,4 +273,20 @@ body header form {
 	float: left;
 	margin-top: 50px;
 	margin-left: 100px;
+}
+#contacts {
+	float: left;
+	width: 475px;
+	height: 225px;
+	padding-left: 25px;
+}
+#sponsors {
+	float: left;
+	padding-left: 25px;
+	border-left: medium solid #FBFBFB;
+	height: 225px;
+	width: 450px;
+}
+.navbar #activepage {
+	background-color: #668AED;
 }
