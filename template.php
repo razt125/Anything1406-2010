@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
-<script scr="scripts.js"></script>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
