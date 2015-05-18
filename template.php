@@ -11,11 +11,11 @@
 <h1>Townsville Community Music Centre</h1>
 
 <nav class="navbar">
-<p id="activepage"><a href="index.php">Home</a></p>
-<p><a href="events.php">Events</a></p>
-<p><a href="bulletin.php">Bulletin Board</a></p>
-<p><a href="musicians.php">Musicians</a></p>
-<p><a href="aboutUs.php">About Us</a></p>
+<a href="index.php"><p id="activepage">Home</p></a>
+<a href="events.php"><p>Events</p></a>
+<a href="bulletin.php"><p>Bulletin Board</p></a>
+<a href="musicians.php"><p>Musicians</p></a>
+<a href="aboutUs.php"><p>About Us</p></a>
 </nav>
 <br><br>
 
