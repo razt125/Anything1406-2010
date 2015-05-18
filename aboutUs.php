@@ -9,9 +9,9 @@
 <h1>Townsville Community Music Centre</h1>
 <nav class="navbar">
 <p><a href="index.php">Home</a></p>
-<p>Events </p>
-<p>Bulletin Board</p>
-<p>Musicians</p>
+<p><a href="events.php">Events</a></p>
+<p><a href="bulletin">Bulletin Board</a></p>
+<p><a href="musicians">Musicians</a></p>
 <p id="activepage"><a href="aboutUs.php">About Us</a></p>
 </nav>
 <br><br>
