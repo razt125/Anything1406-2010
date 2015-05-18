@@ -290,3 +290,7 @@ body header form {
 .navbar #activepage {
 	background-color: #668AED;
 }
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
