@@ -27,11 +27,13 @@
 <p id="Button3">Volunteer</p>
 </div>
 <div id= section3>
-<h2>Announcements</h2>
-<p>Announcement 1: (text)</p>
-<p>Announcement 2: (text)</p>
-<p>Announcement 3: (text)</p>
-<p>Announcement 4: (text)</p>
+<a href="bulletin.php"><h2>Announcements</h2></a>
+<p>Announcement 1: </p>
+<p>(text)(read more)</p>
+<p>Announcement 2:</p>
+<p> (text)(read more)</p>
+<p>Announcement 3:</p>
+<p>(text)(read more)</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
