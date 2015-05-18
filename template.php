@@ -11,11 +11,11 @@
 <h1>Townsville Community Music Centre</h1>
 
 <nav class="navbar">
-<a href="index.php"><p id="activepage">Home</p></a>
-<a href="events.php"><p>Events</p></a>
-<a href="bulletin.php"><p>Bulletin Board</p></a>
-<a href="musicians.php"><p>Musicians</p></a>
-<a href="aboutUs.php"><p>About Us</p></a>
+  <p id="activepage">Home</p>
+  <p>Events </p>
+  <p>Bulletin Board</p>
+  <p>Musicians</p>
+  <p> About Us</p>
 </nav>
 <br><br>
 
@@ -40,6 +40,15 @@
      <p> http://www.townsville.qld.gov.au/Pages/default.aspx</p>
       <h4>Queensland Government Gambling Community Benefit Fund:</h4>
       <p>http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs</p>
+    </div>
+    <div id="sitemap">
+    <p>link 1</p>
+    <p>link 2</p>
+    <p>link 3</p>
+    <p>link 4</p>
+    <p>link 5</p>
+    <p>link 6</p>
+    <p>link 7</p>
     </div>
 </footer>
 </body>
