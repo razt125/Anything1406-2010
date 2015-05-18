@@ -1,19 +1,18 @@
 @charset "utf-8";
 body h1 {
 	text-align: left;
-	background-color: #1D3156;
+	background-color: #0D2A60;
 	border: thin solid #000000;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,0,0,1.00) 0%,rgba(255,0,206,1.00) 11.40%,rgba(105,0,255,1.00) 23.33%,rgba(18,0,255,1.00) 35.75%,rgba(0,132,255,1.00) 47.67%,rgba(0,255,219,1.00) 59.58%,rgba(2,255,0,1.00) 70.99%,rgba(248,255,0,1.00) 83.94%,rgba(255,95,0,1.00) 97.41%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,0,0,1.00) 0%,rgba(255,0,206,1.00) 11.40%,rgba(105,0,255,1.00) 23.33%,rgba(18,0,255,1.00) 35.75%,rgba(0,132,255,1.00) 47.67%,rgba(0,255,219,1.00) 59.58%,rgba(2,255,0,1.00) 70.99%,rgba(248,255,0,1.00) 83.94%,rgba(255,95,0,1.00) 97.41%);
-	background-image: -o-linear-gradient(270deg,rgba(255,0,0,1.00) 0%,rgba(255,0,206,1.00) 11.40%,rgba(105,0,255,1.00) 23.33%,rgba(18,0,255,1.00) 35.75%,rgba(0,132,255,1.00) 47.67%,rgba(0,255,219,1.00) 59.58%,rgba(2,255,0,1.00) 70.99%,rgba(248,255,0,1.00) 83.94%,rgba(255,95,0,1.00) 97.41%);
-	background-image: linear-gradient(180deg,rgba(255,0,0,1.00) 0%,rgba(255,0,206,1.00) 11.40%,rgba(105,0,255,1.00) 23.33%,rgba(18,0,255,1.00) 35.75%,rgba(0,132,255,1.00) 47.67%,rgba(0,255,219,1.00) 59.58%,rgba(2,255,0,1.00) 70.99%,rgba(248,255,0,1.00) 83.94%,rgba(255,95,0,1.00) 97.41%);
 	color: #000000;
 	margin-bottom: 4px;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	text-shadow: 0px 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
 }
 .imageSpace {
 width: 23%;
@@ -45,14 +44,10 @@ body footer {
 	width: 1000px;
 	border-right-color: #FFFFFF;
 	border-bottom-color: #FFFFFF;
-	border-top-color: #FFFFFF;
-	border-right-style: solid;
+	border-top: medium solid #FFFFFF;
 	border-bottom-style: solid;
-	border-top-style: solid;
 	border-right-width: thin;
 	border-bottom-width: thin;
-	border-top-width: thin;
-	background-color: #000000;
 	color: #FFFFFF;
 }
 #section4 {
@@ -171,28 +166,28 @@ min-width: 225px;
 margin-top: -25px;
 }
 #Button1:hover {
-background-color: #3AED6A
+	background-color: #95B0E0
 }
 #Button1:active {
-border: thick double #1452C4;
-background-color: #18974E;
-color: #FFFFFF;
+	border: thick double #1452C4;
+	background-color: #6185C7;
+	color: #FFFFFF;
 }
 #Button2:hover {
-background-color: #F2F552
+	background-color: #183D82
 }
 #Button2:active {
-border: thick double #1452C4;
-background-color: #C0BF19;
-color: #FFFFFF;
+	border: thick double #1452C4;
+	background-color: #122C5A;
+	color: #FFFFFF;
 }
 #Button3:hover {
-background-color: #FFBF57
+	background-color: #0A1936
 }
 #Button3:active {
-border: thick double #1452C4;
-background-color: #D98812;
-color: #FFFFFF;
+	border: thick double #1452C4;
+	background-color: #08101F;
+	color: #FFFFFF;
 }
 #pagecontent {
 /* [disabled]background-color: #191919; */
@@ -288,9 +283,27 @@ body header form {
 	width: 450px;
 }
 .navbar #activepage {
-	background-color: #668AED;
+	background-color: #2B4B8F;
+}
+#sitemap {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+#sitemap p {
+	display: inline-block;
+	padding-left: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 30px;
+	margin-top: 35px;
+	border-color: #FFFFFF;
+	border-width: thin;
+	text-decoration: underline;
+
 }
 a {
-	text-decoration: none;
 	color: #FFFFFF;
+	text-decoration:none;
 }
