@@ -9,11 +9,11 @@
 <body onload="rotate()">
 <h1>Townsville Community Music Centre</h1>
 <nav class="navbar">
-<p>Home</p>
-<p>Events </p>
-<p>Bulletin Board</p>
-<p>Musicians</p>
-<p> About Us</p>
+<a href="index.php"><p>Home</p></a>
+<a href="events.php"><p id="activepage">Events</p></a>
+<a href="bulletin.php"><p>Bulletin Board</p></a>
+<a href="musicians.php"><p>Musicians</p></a>
+<a href="aboutUs.php"><p>About Us</p></a>
 </nav>
 <div id="pagecontent">
 <div id="mainevent">Link to main event </div>
