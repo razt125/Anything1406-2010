@@ -13,8 +13,8 @@
 <nav class="navbar">
 <p id="activepage"><a href="index.php">Home</a></p>
 <p><a href="events.php">Events</a></p>
-<p><a href="bulletin">Bulletin Board</a></p>
-<p><a href="musicians">Musicians</a></p>
+<p><a href="bulletin.php">Bulletin Board</a></p>
+<p><a href="musicians.php">Musicians</a></p>
 <p><a href="aboutUs.php">About Us</a></p>
 </nav>
 <br><br>
