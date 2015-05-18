@@ -16,7 +16,8 @@
 <p> About Us</p>
 </nav>
 <div id="pagecontent">
-<div id="Looking Back- The first 30 years!>  </div>
+<div id="About"> Based in Townsville, North Qld, the Music Centre presents concerts and workshops throughout the year, in a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists and locally-based professional and emerging artists. </div>
+<div id="Looking Back- The first 30 years!"> Celebrated 30 years of the Townsville Community Music centre in 2013...... </div>
 <div id="</div>
 <div id="</div>
 </div>
