@@ -6,7 +6,7 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body onload="rotate()">
+<body>
 
 <h1>Townsville Community Music Centre</h1>
 
