@@ -1,6 +1,6 @@
 // JavaScript Document
 <!-- Hide from old browsers
-adImages = Array("rotating banner/image1.png","rotating banner/image2.jpg","rotating banner/image3.png")
+adImages = Array("images/rotating banner/image1.jpg","images/rotating banner/image2.jpg","images/rotating banner/image3.jpg")
 thisAd = 0
 imageCount = adImages.length
 function rotate() {
