@@ -1,7 +1,6 @@
 @charset "utf-8";
 body header {
 	text-align: left;
-	background-color: #051739;
 	border: thin solid #FFFFFF;
 	padding-bottom: 30px;
 	color: #E8E8E8;
@@ -15,29 +14,11 @@ body header {
 	margin-bottom: 0px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	height: 80px;
-}
-.imageSpace {
-width: 23%;
-float: left;
-margin-left: 15%;
-text-align: center;
-}
-.bioText {
-float: right;
-width: 45%;
-margin-left: 10px;
-text-align: center;
-margin-right: 15%;
-}
-.brief {
-width: 23%;
-float: left;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-text-align: center;
-margin-left: 15%;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(28,34,155,1.00) 46.63%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(28,34,155,1.00) 46.63%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(28,34,155,1.00) 46.63%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(28,34,155,1.00) 46.63%,rgba(0,0,0,1.00) 100%);
 }
 body footer {
 margin-top: 20px;
@@ -67,15 +48,16 @@ margin-left: auto;
 margin-right: auto;
 }
 #section2 {
-text-align: center;
-font-size: 50px;
-border-width: thin;
-/* [disabled]background-color: #292929; */
-height: 250px;
-width: 275px;
-float: left;
-padding-top: 50px;
-margin-bottom: 75px;
+	text-align: center;
+	font-size: 50px;
+	border-width: thin;
+	/* [disabled]background-color: #292929; */
+	height: 250px;
+	width: 275px;
+	float: left;
+	padding-top: 50px;
+	margin-bottom: 75px;
+	margin-left: 20px;
 }
 #section3 {
 	float: right;
@@ -84,9 +66,10 @@ margin-bottom: 75px;
 	border: medium solid #FFFFFF;
 	color: #FFFFFF;
 	height: 300px;
-	margin-right: 50px;
+	margin-right: 25px;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
+	background-color: #10183E;
 }
 body nav p {
 text-align: center;
@@ -175,38 +158,61 @@ min-width: 225px;
 margin-top: -25px;
 }
 #Button1:hover {
-background-color: #95B0E0
+	background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,1.00) 0%,rgba(255,71,248,1.00) 48.70%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(0,0,0,1.00) 0%,rgba(255,71,248,1.00) 48.70%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(0,0,0,1.00) 0%,rgba(255,71,248,1.00) 48.70%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(0,0,0,1.00) 0%,rgba(255,71,248,1.00) 48.70%,rgba(0,0,0,1.00) 100%);
+
 }
 #Button1:active {
-border: thick double #1452C4;
-background-color: #6185C7;
-color: #FFFFFF;
+	border: thick double #1452C4;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(205,0,191,1.00) 48.19%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(205,0,191,1.00) 48.19%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(205,0,191,1.00) 48.19%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(205,0,191,1.00) 48.19%,rgba(0,0,0,1.00) 100%);
 }
 #Button2:hover {
-background-color: #183D82
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(67,255,153,1.00) 47.67%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(67,255,153,1.00) 47.67%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(67,255,153,1.00) 47.67%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(67,255,153,1.00) 47.67%,rgba(0,0,0,1.00) 100%);
+
 }
 #Button2:active {
-border: thick double #1452C4;
-background-color: #122C5A;
-color: #FFFFFF;
+	border: thick double #1452C4;
+	background-color: #122C5A;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(8,163,74,1.00) 49.74%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(8,163,74,1.00) 49.74%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(8,163,74,1.00) 49.74%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(8,163,74,1.00) 49.74%,rgba(0,0,0,1.00) 100%);
 }
 #Button3:hover {
-background-color: #0A1936
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,198,76,1.00) 48.19%,rgba(0,0,0,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,198,76,1.00) 48.19%,rgba(0,0,0,1.00) 99.48%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,198,76,1.00) 48.19%,rgba(0,0,0,1.00) 99.48%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(255,198,76,1.00) 48.19%,rgba(0,0,0,1.00) 99.48%);
+
 }
 #Button3:active {
-border: thick double #1452C4;
-background-color: #08101F;
-color: #FFFFFF;
+	border: thick double #1452C4;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(181,127,25,1.00) 47.15%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(181,127,25,1.00) 47.15%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(181,127,25,1.00) 47.15%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(181,127,25,1.00) 47.15%,rgba(0,0,0,1.00) 100%);
 }
 #pagecontent {
 	/* [disabled]background-color: #191919; */
 	width: 1000px;
-	height: 900px;
 	border-top: thin dashed #FFFFFF;
 	border-bottom: thin dashed #FFFFFF;
 	margin-right: auto;
 	margin-left: auto;
 	color: #FFFFFF;
+	min-height: 900px;
+	max-height: 3000px;
 }
 #section1 {
 color: #FFFFFF;
@@ -257,27 +263,31 @@ padding-bottom: px;
 padding-right: 5px;
 }
 #pagecontent #mainevent {
-background-color: #E84143;
-width: 600px;
-margin-left: 200px;
-height: 300px;
-margin-top: 50px;
+	width: 600px;
+	margin-left: 200px;
+	height: 300px;
+	margin-top: 50px;
+	text-align: center;
+	font-style: italic;
+	font-size: x-large;
 }
 #pagecontent #event1 {
-background-color: #19E844;
-width: 400px;
-height: 200px;
-float: left;
-margin-left: 50px;
-margin-top: 50px;
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: large;
 }
 #pagecontent #event2 {
-background-color: #F5A229;
-width: 400px;
-height: 200px;
-float: left;
-margin-top: 50px;
-margin-left: 100px;
+	width: 400px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+	text-align: center;
+	font-size: large;
 }
 #contacts {
 float: left;
@@ -334,10 +344,34 @@ body header h1 {
 
 }
 .logo {
-	width: 180px;
-	height: 80px;
-	margin-top: 20px;
+	width: 150px;
+	height: 100px;
 	margin-left: 20px;
 	display: block;
 	float: left;
+	margin-top: 15px;
+}
+#pagecontent #musicianimage {
+	width: 400px;
+	height: 200px;
+	background-color: #FF2124;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+#pagecontent #musicianbio {
+	width: 700px;
+	height: auto;
+	background-color: #0A0C5B;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#pagecontent #musicianbio h2 {
+	text-align: center;
 }
