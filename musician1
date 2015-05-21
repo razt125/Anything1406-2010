@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index.html</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+  <div class="logo"><img src="images/logo/logo.jpg" alt="Logo" style="width:150px;height:100px"></div>
+<h1>Townsville Community Music Centre</h1>
+<form>
+  Username:
+  <input type="text" username="username">
+  Password:
+  <input type="text" password="password">
+</form>
+</header>
+
+<nav class="navbar">
+<a href="index.php"><p id="activepage">Home</p></a>
+<a href="events.php"><p>Events</p></a>
+<a href="bulletin.php"><p>Bulletin Board</p></a>
+<a href="musicians.php"></a>
+<a href="aboutUs.php">
+<p>Musicians</p>
+<p>About Us</p></a>
+</nav>
+<br><br>
+<div id="pagecontent">
+<div id="musicianimage">
+<img src="images/musicians/musician1.jpg" alt="width:400px;height:200px"></div>
+<div id="musicianbio">
+<h2>Aviva Quartet</h2>
+ <p>
+Four talented musicians combine their skills in a variety of musical styles including fiery Rhumbas, Tangos, Serenades, a mixture of the most devine and swoon-worthy pieces, guaranteed to delight the senses. The group features Caroline Lloyd-Doolan and Susan Fraser on Violin, Ivy Wu on Cello and Jessica Winton on viola.<br><br> Caroline is a well known performer both locally and regionally and Susan is also well known on the local music scene. Ivy hails from Brisbane having completed her studies in France. Jessica has come back to Townsville after completing her degree in Tasmania. The girls all have a passion for chamber music and are very excited to be able to form up a group that will be able to perform regularly both locally and in the surrounding regions. Their concert will take listeners through a wonderful journey of beautiful melodies and the most romantic music that is guaranteed to leave the senses fulfilled and wanting more. 
+</div>
+</div>
+<footer>
+<div id= contacts>
+<h3>Contact Info:</h3>
+<p>Phone: 07 4724 2086<br>
+Mobile: 0402 255 182<br><br>
+Postal Address PO Box:<br>
+1006, Townsville, Qld 4810<br>
+Address Townsville Civic Theatre:<br>
+41 Boundary Street, Townsville, Qld 4810<br>
+Office hours: 9:30 - 2:30 Monday - Wednesday</p>
+</div>
+<div id= sponsors>
+<h3>Sponsors:</h3>
+<h4>Townsville City Council:</h4>
+<p> http://www.townsville.qld.gov.au/Pages/default.aspx</p>
+<h4>Queensland Government Gambling Community Benefit Fund:</h4>
+<p>http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs</p>
+</div>
+<div id="sitemap">
+<a href="index.php"><p id="activepage">Home</p></a>
+<a href="events.php"><p>Events</p></a>
+<a href="bulletin.php"><p>Bulletin Board</p></a>
+<a href="musicians.php"><p>Musicians</p></a>
+<a href="aboutUs.php"><p>About Us</p></a>
+<p>link 6</p>
+</div>
+</footer>
+</body>
+</html>
