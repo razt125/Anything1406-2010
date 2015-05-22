@@ -31,7 +31,7 @@
 <p>Help us out by becoming a member, donating or volunteering </p>
 </div>
 <div id= section2>
-<p id="Button1">Sign Up</p>
+<a href="signup.php"><p id="Button1">Sign Up</p></a>
 <p id="Button2">Donate</p>
 <p id="Button3">Volunteer</p>
 </div>
@@ -54,7 +54,7 @@
 <div id= section4>
 <center>
 <a href="events.php">
-<img name="adBanner" src="images/rotating banner/image1.png"/>
+<img name="adBanner" src="images/rotatingBanner/image1.png"/>
 </a>
 </center>
 </div>
