@@ -6,16 +6,28 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
+<header>
+  <div class="logo"><img src="images/logo/logo.jpg" alt="Logo" style="width:150px;height:100px"></div>
 <h1>Townsville Community Music Centre</h1>
+<form>
+  Username:
+  <input type="text" username="username">
+  Password:
+  <input type="text" password="password">
+</form>
+</header>
+
 <nav class="navbar">
-<a href="index.php"><p id="activepage">Home</p></a>
+<a href="index.php"><p>Home</p></a>
 <a href="events.php"><p>Events</p></a>
 <a href="bulletin.php"><p>Bulletin Board</p></a>
-<a href="musicians.php"><p>Musicians</p></a>
+<a href="musicians.php"><p id="activepage">Musicians</p></a>
 <a href="aboutUs.php"><p>About Us</p></a>
 </nav>
 <br><br>
 <div id="pagecontent">
+<div id="featured"><a href="musician1.php"><img src="images/musicians/link images/artist0.jpg" alt="event2" style="width:600px;height:300px"></a><p>Aviva String Quartet</p></div>
 </div>
 <footer>
 <div id= contacts>
@@ -36,13 +48,12 @@ Office hours: 9:30 - 2:30 Monday - Wednesday</p>
 <p>http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs</p>
 </div>
 <div id="sitemap">
-<p>link 1</p>
-<p>link 2</p>
-<p>link 3</p>
-<p>link 4</p>
-<p>link 5</p>
+<a href="index.php"><p id="activepage">Home</p></a>
+<a href="events.php"><p>Events</p></a>
+<a href="bulletin.php"><p>Bulletin Board</p></a>
+<a href="musicians.php"><p>Musicians</p></a>
+<a href="aboutUs.php"><p>About Us</p></a>
 <p>link 6</p>
-<p>link 7</p>
 </div>
 </footer>
 </body>
