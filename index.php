@@ -8,21 +8,24 @@
 </head>
 <body onload="rotate()">
 <header>
-  <div class="logo"><img src="images/logo/logo.jpg" alt="Logo" style="width:150px;height:100px"></div>
+  <div class="logo"><img src="images/logo/logo.jpg" alt="Logo" style="width: 150px; height: 100px; float: left;"></div>
 <h1>Townsville Community Music Centre</h1>
 <form>
   Username:
   <input type="text" username="username">
   Password:
-  <input type="text" password="password">
+  <input type="text" password="password"><input type="submit" value="Submit">
 </form>
+<a href="https://www.facebook.com/pages/Townsville-Community-Music-Centre/159636880763534"><div id="facebookicon"></div></a>
 </header>
+
 <nav class="navbar">
 <a href="index.php"><p id="activepage">Home</p></a>
 <a href="events.php"><p>Events</p></a>
 <a href="bulletin.php"><p>Bulletin Board</p></a>
 <a href="musicians.php"><p>Musicians</p></a>
 <a href="aboutUs.php"><p>About Us</p></a>
+<a href="instrumentInfo.php"><p>Instruments</p></a>
 </nav>
 <br><br>
 <div id="pagecontent">
@@ -32,24 +35,16 @@
 </div>
 <div id= section2>
 <a href="signup.php"><p id="Button1">Sign Up</p></a>
-<p id="Button2">Donate</p>
-<p id="Button3">Volunteer</p>
+<a href="https://www.paypal.com/au/cgi-bin/webscr?cmd=_flow&SESSION=vtkOeqAU_zxZ0iKnhJkqp1wmpnAcJVAynhMhfobOGL3l1cYqXbpf9_sPkJW&dispatch=5885d80a13c0db1f8e263663d3faee8d99e4111b56ef0eae45e68b8988f5b2dd"><p id="Button2">Donate</p></a>
+<a href="bulletin.php"><p id="Button3">Volunteer</p></a>
 </div>
 <div id= section3>
 <a href="bulletin.php"><h2>Announcements</h2></a>
-<p>Announcement 1: </p>
-<p>(text)(read more)</p>
-<p>Announcement 2:</p>
-<p> (text)(read more)</p>
-<p>Announcement 3:</p>
-<p>(text)(read more)</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<h3>Volunteer Singers / Musicians: </h3>
+<p>Our Parish Priest, Fr Mick Peters . . . <a href="bulletin.php">read more</a></p>
+<h3>Chord Organ Music teaching: </h3>
+<p>Are you struggling to master sections of your pieces at tempo? . . . <a href="bulletin.php">read more</a></p>
+
 </div>
 <div id= section4>
 <center>
@@ -58,6 +53,7 @@
 </a>
 </center>
 </div>
+
 </div>
 <footer>
 <div id= contacts>
@@ -73,18 +69,18 @@ Office hours: 9:30 - 2:30 Monday - Wednesday</p>
 <div id= sponsors>
 <h3>Sponsors:</h3>
 <h4>Townsville City Council:</h4>
-<p> http://www.townsville.qld.gov.au/Pages/default.aspx</p>
+<a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><p> http://www.townsville.qld.gov.au/Pages/default.aspx</p></a>
 <h4>Queensland Government Gambling Community Benefit Fund:</h4>
-<p>http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs</p>
+<a href="http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs"><p>http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs</p></a>
 </div>
 
 <div id="sitemap">
-<a href="index.php"><p id="activepage">Home</p></a>
+<a href="index.php"><p>Home</p></a>
 <a href="events.php"><p>Events</p></a>
 <a href="bulletin.php"><p>Bulletin Board</p></a>
 <a href="musicians.php"><p>Musicians</p></a>
 <a href="aboutUs.php"><p>About Us</p></a>
-<p>link 6</p>
+<a href="instrumentInfo.php"><p>Instrument Info</p></a>
 </div>
 </footer>
 </body>
