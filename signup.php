@@ -25,6 +25,7 @@
 <a href="aboutUs.php">
 <p>Musicians</p>
 <p>About Us</p></a>
+
 </nav>
 <br><br>
 <div id="pagecontent">
