@@ -1,0 +1,48 @@
+[2015-05-27 22:49:20]	
+sql:    select * from bulletin  where status=1  order by id desc
+[2015-05-27 22:49:23]	
+sql:    select * from musicians  where status=1  order by id desc
+[2015-05-27 22:49:23]	
+sql:    select * from musicians_list  order by id desc
+[2015-05-27 22:49:24]	
+sql:    select * from bulletin  where status=1  order by id desc
+[2015-05-27 22:49:25]	
+sql:    select * from events  where status=1  order by id desc
+[2015-05-27 22:49:30]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:49:30]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:49:32]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:49:34]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:49:35]	
+sql:    select * from bulletin  where status=1  order by id desc
+[2015-05-27 22:49:39]	
+sql:    select * from musicians  where status=1  order by id desc
+[2015-05-27 22:49:39]	
+sql:    select * from musicians_list  order by id desc
+[2015-05-27 22:49:41]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:49:42]	
+sql:    select * from musicians_list  order by id desc
+[2015-05-27 22:49:44]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:49:45]	
+sql:    select * from bulletin  where status=1  order by id desc
+[2015-05-27 22:49:56]	
+sql:    insert into bulletin (title,long_time,content,status,img,uid,uname,create_time) values ('tet','1432738196','te','1','views/style/images/upload/bulletin20150527224956.jpg','7','admin@test.com','1432738196')
+[2015-05-27 22:49:59]	
+sql:    select * from user where email="admin@test.com"
+[2015-05-27 22:50:00]	
+sql:    select * from musicians  where status=1  order by id desc
+[2015-05-27 22:50:00]	
+sql:    select * from musicians_list  order by id desc
+[2015-05-27 22:50:01]	
+sql:    select * from bulletin  where status=1  order by id desc
+[2015-05-27 22:50:02]	
+sql:    select * from events  where status=1  order by id desc
+[2015-05-27 22:50:03]	
+sql:    select * from bulletin  where status=1  order by id desc
+[2015-05-27 22:50:07]	
+sql:    select * from user where email="admin@test.com"
