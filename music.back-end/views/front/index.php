@@ -2,7 +2,7 @@
 <div id="pagecontent">
 <br>
 <div id="section1">
-<p>Help us out by becoming a member, donating or volunteering </p>
+<p>Help us out by becoming a member, donating or volunteering! </p>
 </div>
 <div id= section2>
 <?php if (empty($_SESSION)){?>
